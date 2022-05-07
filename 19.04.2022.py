@@ -11,13 +11,94 @@
 ##   ###   ####
 
 # diller = {"php":25,"Java":30,"SQL":15}   #------>dictionary
-#diller["Python"] = 35   elave etmek ucun isdifade olunur
-#diller.clear()  ----> butun dictionary(sozluk) silinir
-#diller.pop("php") ---> secilen dili silir
-#diller.popitem() ----> rastgele birini siler
-#diller2 = diller.copy() ----> yeni sozluk yaradar ve isdediyin sozluyu kopyalayar
+# diller["Python"] = 35   elave etmek ucun isdifade olunur
+# diller.clear()  ----> butun dictionary(sozluk) silinir
+# diller.pop("php") ---> secilen dili silir
+# diller.popitem() ----> rastgele birini siler
+# diller2 = diller.copy() ----> yeni sozluk yaradar ve isdediyin sozluyu kopyalayar
 # key = 'SQL'
 # print(diller[key])
 # a = None
 
 # print(type(a))
+
+# a = 5
+# while True:
+#     a += 1
+#     if (a % 2 == 0):
+#         continue
+#     print(a)
+#
+#     if a == 199:
+#         break
+
+# arr = ['huseyn', 'eldar', 'eli', 'veli', 'pirveli']
+# for var in arr:
+#     print(var)
+# print(type(range(1, 200)))
+
+# var = 'elektirkleshdirdiklerimizdensinizmi?'
+# boyut = len(var)
+# for nums in range(0, boyut):
+#     print(var[nums])
+
+
+#var = 'elektirkleshdirdiklerimizdensinizmi?'
+#boyut = len(var)
+#a = 0
+#while a < boyut:
+#    print(var[a])
+#    a += 1
+
+'''
+
+def fakt(n):
+    if n>=0:
+        if (n==1 or n==0):
+            return 1
+        else:
+            return n*fakt(n-1)
+    else:
+        return "menfi reqem daxil etmeyin"
+a = int(input("Faktoriyal hesablamaq isdediyiniz sayini yazin; "))
+print(fakt(a))
+'''
+
+'''
+a = 25
+print(float(a))
+
+
+a = ['Eldar','Huseyn','Python']
+del(a[2])
+print(a)  '''
+
+a = int(input("ededi daxil edin"))
+b = int(input("quvveti daxil edin"))
+
+
+def quvvet(say1,say2,a=0):
+    b = 1
+    while a < say2:
+        b = b * say1
+        a += 1
+    return (b)
+print(quvvet(a,b))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
