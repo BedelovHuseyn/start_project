@@ -119,4 +119,3 @@ f = random.sample(sayilar, 3)     #  verilen say qeder regem verir
 print(f)    '''
 
 
-xasjkdkjdjadbfaj
