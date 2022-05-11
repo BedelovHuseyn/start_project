@@ -97,7 +97,7 @@ print(quvvet(a,b))
 ### Return --->    funksiyamizin vereceyi deyeri gore bilmek ucun
 
 
-
+''' 
 import random
 a = random.random()   #----> 0- ile, 1 arasinda float dondurur
 print(a)
@@ -116,4 +116,7 @@ e = random.choice(sayilar)
 print("Sayilar" , e)
 
 f = random.sample(sayilar, 3)     #  verilen say qeder regem verir
-print(f)
+print(f)    '''
+
+
+xasjkdkjdjadbfaj
