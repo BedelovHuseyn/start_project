@@ -73,6 +73,9 @@ a = ['Eldar','Huseyn','Python']
 del(a[2])
 print(a)  '''
 
+
+
+'''
 a = int(input("ededi daxil edin"))
 b = int(input("quvveti daxil edin"))
 
@@ -85,20 +88,32 @@ def quvvet(say1,say2,a=0):
     return (b)
 print(quvvet(a,b))
 
+'''
+
+### While -donguler ard-arda yapilan islemlere deyilir.
+
+### Fonkksiyonlar --->  daha sonra istifade etmek ucun isledilir, her fonktion oz adi var
+
+### Return --->    funksiyamizin vereceyi deyeri gore bilmek ucun
 
 
 
+import random
+a = random.random()   #----> 0- ile, 1 arasinda float dondurur
+print(a)
 
+b = random.uniform(1,50)     #   verilen araliqda float dondurur
+print(b)
 
+c = random.randint(1,50)      #      verilen araliqda int dondurur
+print(c)
 
+d = random.randrange(1,50)      #   int dondurur amma sonuncu reqemide daxil edir
+print(d)
 
+sayilar = range(0,50)      #   rastgele birini secir
+e = random.choice(sayilar)
+print("Sayilar" , e)
 
-
-
-
-
-
-
-
-
-
+f = random.sample(sayilar, 3)     #  verilen say qeder regem verir
+print(f)
