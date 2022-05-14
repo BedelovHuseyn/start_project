@@ -73,8 +73,27 @@ a = ['Eldar','Huseyn','Python']
 del(a[2])
 print(a)  '''
 
-
-
+### Return --->    funksiyamizin vereceyi deyeri gore bilmek ucun
+#import random
+#a = random.random()   #----> 0- ile, 1 arasinda float dondurur
+#print(a)
+#
+#b = random.uniform(1,50)     #   verilen araliqda float dondurur
+#print(b)
+#
+#c = random.randint(1,50)      #      verilen araliqda int dondurur
+#print(c)
+#
+#d = random.randrange(1,50)      #   int dondurur amma sonuncu reqemide daxil edir
+#print(d)
+#
+#sayilar = range(0,50)      #   rastgele birini secir
+#e = random.choice(sayilar)
+#print("Sayilar" , e)
+#
+#f = random.sample(sayilar, 3)     #  verilen say qeder regem verir
+#print(f)
+#
 '''
 a = int(input("ededi daxil edin"))
 b = int(input("quvveti daxil edin"))
@@ -96,6 +115,7 @@ print(quvvet(a,b))
 
 ### Return --->    funksiyamizin vereceyi deyeri gore bilmek ucun
 
+### While -donguler ard-arda yapilan islemlere deyilir.
 
 ''' 
 import random
@@ -129,9 +149,23 @@ print(f)    '''
 # Bu kod 10-e qeder 10 daxil olmamaq serti ile ekrana 6,7,8,9 ededlerini yazir ve kod sonlanir!
 # print(a<10) bu kod loop bitdikde deyeri 10-a beraber oldugu ucun False qaytarir
 
+### Fonkksiyonlar --->  daha sonra istifade etmek ucun isledilir, her fonktion oz adi var
 
 # For - loopu arrayin icinde olan verileri tek tek oxuyur sonra yeni bir  deyisen icinde yazdirir
 
 # Return fonksiyonu - funksiyadan qayidan cavabinin neticesi hansi simvol olmasini gosterir  -> fonksiyonun dondureceyi deyeridi
 
-#map - 
+#Map - arrayda verilenleri funtionda calisdirir(birinci function, ikinci arrayin adi yazilir)
+
+
+#modul --> Fonksiyon db. YAzilan fonksiyonu ozunde saxliyir. istisade elemek isdediyimiz yerde cagira bilirik(import *name*)
+
+#import math
+#a = math.factorial(5)
+#print(a)
+
+
+
+
+
+#map -
