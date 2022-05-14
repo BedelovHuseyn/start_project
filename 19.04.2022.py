@@ -164,8 +164,13 @@ print(f)    '''
 #a = math.factorial(5)
 #print(a)
 
+# Return fonksiyonu - funksiyadan qayidan cavabinin neticesi hansi simvol olmasini gosterir  -> fonksiyonun dondureceyi deyeridi
+
+#Map - arrayda verilenleri funtionda calisdirir(birinci function, ikinci arrayin adi yazilir)
 
 
+#modul --> Fonksiyon db. YAzilan fonksiyonu ozunde saxliyir. istisade elemek isdediyimiz yerde cagira bilirik(import *name*)
 
-
-#map -
+#import math
+#a = math.factorial(5)
+#print(a)
