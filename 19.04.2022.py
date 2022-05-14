@@ -132,4 +132,4 @@ print(f)    '''
 
 # For - loopu arrayin icinde olan verileri tek tek oxuyur sonra yeni bir  deyisen icinde yazdirir
 
-# Return fonksiyonu - funksiyadan qayidan cavabinin neticesi hansi simvol olmasini gosterir
+# Return fonksiyonu - funksiyadan qayidan cavabinin neticesi hansi simvol olmasini gosterir  -> fonksiyonun dondurme deyeridi
