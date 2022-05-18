@@ -108,7 +108,12 @@ def quvvet(say1,say2,a=0):
 print(quvvet(a,b))
 
 '''
+def say(say1):
+    print(say1)
 
+
+
+say(3)
 ### While -donguler ard-arda yapilan islemlere deyilir.
 
 ### Fonkksiyonlar --->  daha sonra istifade etmek ucun isledilir, her fonktion oz adi var
@@ -134,6 +139,9 @@ print(d)
 sayilar = range(0,50)      #   rastgele birini secir
 e = random.choice(sayilar)
 print("Sayilar" , e)
+
+
+
 
 f = random.sample(sayilar, 3)     #  verilen say qeder regem verir
 print(f)    '''
@@ -174,3 +182,15 @@ print(f)    '''
 #import math
 #a = math.factorial(5)
 #print(a)
+
+
+
+# while for arasindaki fark
+
+# For döngüsü, programcının belirli sayıda kez yürütmesi gereken bir döngüyü verimli bir şekilde yazmasına olanak tanıyan
+# bir tekrar kontrol yapısıdır.
+# While döngüsü, verilen koşul doğru olduğu sürece hedef ifadeleri yürüten bir tekrar kontrol yapısıdır.
+# Kullanım
+# For döngüsü, yineleme sayısı bilindiğinde kullanılabilir.	While döngüsü, yineleme sayısı bilinmediğinde kullanılabilir.
+# Başlatma
+# Başlatma, döngüde bir kez gerçekleşir.	While döngüsünde, başlatma ifadesi döngünün içindeyse, döngü her yinelendiğinde başlatma yapılır.

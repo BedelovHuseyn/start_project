@@ -1,3 +1,5 @@
-import math
-a = math.factorial(5)
-print(a)
+while True:
+    a = input()
+
+    b = input()
+    print(a + b)
