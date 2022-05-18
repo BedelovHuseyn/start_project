@@ -194,3 +194,12 @@ print(f)    '''
 # For döngüsü, yineleme sayısı bilindiğinde kullanılabilir.	While döngüsü, yineleme sayısı bilinmediğinde kullanılabilir.
 # Başlatma
 # Başlatma, döngüde bir kez gerçekleşir.	While döngüsünde, başlatma ifadesi döngünün içindeyse, döngü her yinelendiğinde başlatma yapılır.
+
+
+
+###################
+# Dosya islemleri
+# "r" - Oxumaq standartdır, oxumaq üçün faylı açır. Fayl mövcud deyilsə, xəta atır.
+# "a" - Əlavə məlumat daxil etmək üçün faylı açır, fayl yoxdursa yenisini yaradır.
+# "w" - Write faylı yazmaq üçün açır, fayl yoxdursa yenisini yaradır.
+# "x" - Əgər fayl artıq mövcuddursa, Build xəta verir.
