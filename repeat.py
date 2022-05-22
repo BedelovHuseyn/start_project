@@ -74,7 +74,16 @@ a = a.replace("a","o")
 print(a)
           """
 
-liste = [1,2,3,4,5]
-liste.append(0)
-print(liste)
+# liste = [1,2,3,4,5]
+# liste.append(0)
+# print(liste)
 
+
+# Use of break statement inside the loop
+
+for val in "string":
+    if val == "g":
+        break
+    print(val)
+
+print("The end")
