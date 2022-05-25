@@ -108,8 +108,8 @@ def quvvet(say1,say2,a=0):
 print(quvvet(a,b))
 
 '''
-def say(say1):
-    print(say1)
+# def say(say1):
+#     print(say1)
 
 
 
@@ -209,11 +209,11 @@ print(f)    '''
 # map, verilen bir fonksiyonu sıralı nesnenin her elemanına tek tek uygulayarak bir liste yaratır.
 #
 # filter fonksiyonu bir Boolean (“doğru” veya “yanlış” veren) fonksiyon ve bir sıralı nesne alır, fonksiyon sonucunda
-# “doğru” sonuç çıkaran elemanları içeren bir liste verir.
+# “doğru” sonuç çıkaran elemanları içeren bir lxiste verir.
 
 
 # dosya islemleri
-W - yazma ucun isdifade olunur. eger txt file yoxdusa yaradir
-a - append yeni elave etmek rolunu oynuyur
-r - right oxumaq ucundur
-r++ -- .seek yazim isdediyimiz yere data elave ede bilerik
+# W - yazma ucun isdifade olunur. eger txt file yoxdusa yaradir
+# a - append yeni elave etmek rolunu oynuyur
+# r - right oxumaq ucundur
+# r++ -- .seek yazim isdediyimiz yere data elave ede bilerik
